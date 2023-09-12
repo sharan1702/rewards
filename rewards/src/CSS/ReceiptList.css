@@ -1,0 +1,105 @@
+
+.billList {
+    padding: 0 2rem;
+    width: 40rem;
+    width: 70%;
+    position: absolute;
+    margin-left: 25rem;
+}
+
+
+.billList>div>span {
+    display: inline-flex;
+    font-weight: 700;
+    padding-right: px;
+    width: 18%;
+}
+
+ul {
+    padding-left: 0;
+    list-style: none;
+}
+  
+li {
+    min-width: 651px;
+    border-top: 1px solid black;
+}
+  
+li > * {
+    display: inline-block;
+    padding: 10px 10px 10px 0;
+    word-break: break-all;
+    vertical-align: top;
+}
+  
+
+  
+li>span {
+    display: inline-block;
+    width: 18%;
+    padding: 5px;
+    margin-top: 1rem;
+}
+
+  
+
+  
+li > .description {
+    padding-top: 0;
+    white-space: pre-wrap;
+}
+
+
+
+.delete-button {
+    background-color: #cf1f12;
+    border: 1.5px solid #cf1f12;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 0.5rem;
+    padding: 8px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.delete-button:hover{
+    opacity: 0.5;
+}
+
+.billList ul {
+    display: flex;
+    flex-direction: column-reverse;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-left: -2rem;
+}
+
+.billList .nothing{
+    color: red;
+    text-align: center;
+    margin-top: 3rem;
+    font-size: larger;
+}
+
+
+
+.billList .title button{
+    width: 1.5rem;
+}
+
+.billList .total, .reward{
+    text-align: right;
+    font-size: large;
+}
+
+.reward{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: #8529cd;
+}
+
+
+

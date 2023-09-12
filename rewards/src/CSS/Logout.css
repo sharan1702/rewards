@@ -1,0 +1,43 @@
+
+
+
+.header .headerUser{
+    margin: 2rem .5rem 0 0;
+}
+
+.header {
+    text-align: right;
+    margin-right: 2rem;
+    margin-bottom: -2rem;
+    margin-top: -3rem;
+}
+
+
+.headerUser {
+    align-items: center;
+    background: #000000;
+    border-radius: 50%;
+    color: #fff;
+    display: inline-flex;
+    font-size: 26px;
+    height: 15px;
+    justify-content: center;
+    margin-right: 8px;
+    padding: 24px;
+    width: 15px;
+}
+.logoutBtn {
+    font-size: 18px;
+    padding: 12px 24px;
+    color: #000000;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    cursor: pointer;
+    transition: all 200ms ease-in-out;
+    border-radius: 5px;
+    margin-left: 16px;
+  }
+  .logoutBtn:hover {
+    background-color: #3b3636;
+    color: #ffffff;
+  }
